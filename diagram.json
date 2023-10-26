@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Niyati Singh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 377.56, "left": -283.6, "attrs": {} },
+    { "type": "wokwi-tv", "id": "tv1", "top": -256.63, "left": -494.68, "attrs": {} }
+  ],
+  "connections": [
+    [ "tv1:SYNC", "uno:9", "yellow", [ "v45.84", "h-5.12" ] ],
+    [ "tv1:GND", "uno:GND.1", "blue", [ "v51.49", "h-62.22" ] ],
+    [ "tv1:IN", "uno:7", "green", [ "v35.5", "h33.9" ] ]
+  ],
+  "dependencies": {}
+}
